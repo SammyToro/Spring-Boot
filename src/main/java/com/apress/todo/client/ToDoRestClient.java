@@ -50,7 +50,7 @@ public class ToDoRestClient {
 
     public ToDo insert(ToDo toDo) throws URISyntaxException{
         RequestEntity<?> requestEntity = 
-            new RequestEntity<>(toDo,HttpMethod.GET, new URI(properties.getUrl()+properties.getBasePath()));
+            new RequestEntity<>(toDo,HttpMethod.POST, new URI(properties.getUrl()+properties.getBasePath()));
 
         ResponseEntity<?> response = 
             restTemplate.exchange(requestEntity, new ParameterizedTypeReference<ToDo>(){});
@@ -64,7 +64,8 @@ public class ToDoRestClient {
     public ToDo setCompleted(String id) throws URISyntaxException{
         Map<String,String> params = new HashMap<>();
         params.put("id",id);
-        restTemplate.postForObject(properties.getUrl()+properties.getBasePath()+"/{id}?_method=patch",null, ResponseEntity.class,params);
+        restTemplate.postForObject(properties.getUrl()+properties.getBasePath()+"/{id}?_method=patch",
+        null, ResponseEntity.class,params);
 
         return findById(id);
 
