@@ -42,6 +42,11 @@ public class ToDo {
         this.description = description;
     }
 
+    public ToDo(String description,boolean completed){
+        this(description);
+        this.completed = completed;
+    }
+
     @PrePersist
     void onCreate(){
         this.setCreated(LocalDateTime.now());
