@@ -1,0 +1,17 @@
+com\apress\todo\configuration\ToDoClientProperties.class
+com\apress\todo\security\Pbkdf2Encoder.class
+com\apress\todo\annotation\Algorithm.class
+com\apress\todo\client\ToDoClient$3.class
+com\apress\todo\client\ToDoClient.class
+com\apress\todo\security\ToDoSecurityConfiguration.class
+com\apress\todo\domain\ToDo.class
+META-INF\spring-configuration-metadata.json
+com\apress\todo\security\ToDoSecurity.class
+com\apress\todo\repository\ToDoRepository.class
+com\apress\todo\client\ToDoClient$1.class
+com\apress\todo\configuration\ToDoRestConfig.class
+com\apress\todo\security\ToDoSecurityConfiguration$1.class
+com\apress\todo\annotation\EnableToDoSecurity.class
+com\apress\todo\configuration\ToDoClientAutoConfiguration.class
+com\apress\todo\security\BCryptEncoder.class
+com\apress\todo\client\ToDoClient$2.class
