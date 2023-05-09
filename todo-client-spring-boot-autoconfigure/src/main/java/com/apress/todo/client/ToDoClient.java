@@ -10,6 +10,7 @@ import org.springframework.hateoas.client.Traverson;
 import org.springframework.http.MediaType;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -38,7 +39,7 @@ public class ToDoClient {
 
     public ToDo findById(String id){
         UriComponents uriComponents = UriComponentsBuilder.newInstance()
-            .uri(URI.create(this.props.getHost())).pathSegment(this.props.getPath(),"/{id}")
+            .uri(URI.create(this.props.getHost())).pathSegment(this.props.getPath().substring(1, this.props.getPath().length()),"{id}")
             .buildAndExpand(id);
 
         ResponseEntity<ToDo> response = this.restTemplate.exchange(

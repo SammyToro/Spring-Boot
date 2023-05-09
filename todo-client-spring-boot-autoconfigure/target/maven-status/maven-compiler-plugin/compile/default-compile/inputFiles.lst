@@ -1,12 +1,10 @@
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\configuration\ToDoClientAutoConfiguration.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\annotation\EnableToDoSecurity.java
-C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\repository\ToDoRepository.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\security\Pbkdf2Encoder.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\security\BCryptEncoder.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\client\ToDoClient.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\domain\ToDo.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\security\ToDoSecurityConfiguration.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\annotation\Algorithm.java
-C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\configuration\ToDoRestConfig.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\configuration\ToDoClientProperties.java
 C:\Users\Samuel Ofori-Okyere\Documents\Spring Boot\todo-client-starter\todo-client-spring-boot-autoconfigure\src\main\java\com\apress\todo\security\ToDoSecurity.java
