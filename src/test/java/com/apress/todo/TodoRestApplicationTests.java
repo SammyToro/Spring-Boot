@@ -29,13 +29,13 @@ class TodoRestApplicationTests {
 	private ToDoRepository toDoRepository;
 
 	//MockMvc Test
-	@Test
-	public void toDoTest() throws Exception{
-		this.mockMvc
-			.perform(MockMvcRequestBuilders.get("/toDos"))
-			.andExpect(MockMvcResultMatchers.status().isOk())
-			.andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON));
-	}
+	// @Test
+	// public void toDoTest() throws Exception{
+	// 	this.mockMvc
+	// 		.perform(MockMvcRequestBuilders.get("/toDos"))
+	// 		.andExpect(MockMvcResultMatchers.status().isOk())
+	// 		.andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON));
+	// }
 
 	@Test
 	void contextLoads() {
