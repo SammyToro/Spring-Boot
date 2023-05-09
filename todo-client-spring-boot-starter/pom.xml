@@ -25,13 +25,11 @@
         <relativePath>..</relativePath>
     </parent>
 
-    <dependencyManagement>
-        <dependencies>
+    <dependencies>
             <dependency>
                 <groupId>com.apress.todo</groupId>
                 <artifactId>todo-client-spring-boot-autoconfigure</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
-    </dependencyManagement>
 </project>
